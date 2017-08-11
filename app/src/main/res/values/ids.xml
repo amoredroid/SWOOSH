@@ -7,4 +7,13 @@
     <item name="btnMens" type="id">button_mens</item>
     <item name="btnCoed" type="id">button_coed</item>
     <item name="btnWomens" type="id">button_coed</item>
+    <item name="mens" type="id">button_mens</item>
+    <item name="womens" type="id">button_womens</item>
+    <item name="co_ed" type="id">button_co_ed</item>
+    <item name="btnBackNext" type="id">button_back_next</item>
+    <item name="next" type="id">button_next</item>
+    <item name="btnLeague" type="id">button_league</item>
+    <item name="btnSkill" type="id">button_skill</item>
+    <item name="tvLeague" type="id">textView_league</item>
+    <item name="tvSkill" type="id">textView_skill</item>
 </resources>
