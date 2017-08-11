@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SWOOSH</string>
+    <string name="string_go_all_in">GO ALL IN</string>
+    <string name="string_on_going_all_out">ON GOING ALL OUT</string>
+    <string name="string_paragraph">Find the team in your city &amp; dominate \n the league.</string>
+    <string name="string_get_started">Get Started</string>
+    <string name="string_desired_league">Desired League:</string>
+    <string name="string_mens">Mens</string>
+    <string name="string_womens">Womens</string>
+    <string name="string_co_ed">Co-ed</string>
+    <string name="string_next">NEXT</string>
+    <string name="string_i_am_a">I am a:</string>
+    <string name="string_baller">Baller</string>
+    <string name="string_beginner">Beginner</string>
+    <string name="string_finish">FINISH</string>
+</resources>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnStart" type="id">button_btnStart</item>
+    <item name="btnNext" type="id">button_next</item>
+    <item name="etFinish" type="id">edit_text_finish</item>
+    <item name="btnFinish" type="id">button_finish</item>
+    <item name="btnMens" type="id">button_mens</item>
+    <item name="btnCoed" type="id">button_coed</item>
+    <item name="btnWomens" type="id">button_coed</item>
+</resources>

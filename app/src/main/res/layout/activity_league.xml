@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desired_league_bg"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:src="@drawable/swoosh_logo"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/string_desired_league"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <GridLayout
+        android:layout_width="350dp"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:alpha="0.80"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_styles"
+            android:text="@string/string_mens"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:alpha="0.90"
+            android:background="@drawable/button_styles"
+            android:text="@string/string_womens"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_styles"
+            android:text="@string/string_co_ed"
+            android:textColor="@android:color/background_light" />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/gridLayout"
+        android:layout_marginBottom="15dp"
+        android:alpha="0.40"
+        android:text="@string/string_next"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/button_styles"
+        android:layout_alignLeft="@+id/gridLayout"
+        android:onClick="next"/>
+
+</RelativeLayout>
